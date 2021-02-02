@@ -1374,7 +1374,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Other Sort
+  m_Text: Bogo Sort
 --- !u!222 &1769112645
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1607,8 +1607,9 @@ GameObject:
   - component: {fileID: 2059277940}
   - component: {fileID: 2059277939}
   - component: {fileID: 2059277938}
+  - component: {fileID: 2059277941}
   m_Layer: 5
-  m_Name: Other Sort
+  m_Name: Bogo Sort
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1678,7 +1679,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 2059277941}
         m_TargetAssemblyTypeName: Sorting.BaseSorter, Assembly-CSharp
         m_MethodName: RunSorter
         m_Mode: 1
@@ -1728,3 +1729,16 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2059277936}
   m_CullTransparentMesh: 1
+--- !u!114 &2059277941
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2059277936}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe0e0a3956bb73e46863825ecedae509, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  generator: {fileID: 1586799603}
