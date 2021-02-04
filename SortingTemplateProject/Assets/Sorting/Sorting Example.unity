@@ -235,7 +235,7 @@ GameObject:
   - component: {fileID: 428018384}
   - component: {fileID: 428018383}
   m_Layer: 0
-  m_Name: sound
+  m_Name: background tune
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1501,7 +1501,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Other Sort
+  m_Text: Cocktail Shaker Sort
 --- !u!222 &1769112645
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1736,7 +1736,7 @@ GameObject:
   - component: {fileID: 2059277938}
   - component: {fileID: 2059277941}
   m_Layer: 5
-  m_Name: Other Sort
+  m_Name: Cocktail Sort
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
